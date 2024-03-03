@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://gsya.esi.uclm.es/ecosec"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://gsya.esi.uclm.es/ecosec">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="ontocarmen" IRI="https://gsya.esi.uclm.es/ontocarmen#"/>
+    <Import>https://gsya.esi.uclm.es/ontocarmen</Import>
+    <Declaration>
+        <Class IRI="/SustainabilityLabel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isLessSustainabilityThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ASustainabilityLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/BSustainabilityLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/CSustainabilityLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/DSustainabilityLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ESustainabilityLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/FSustainabilityLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/GSustainabilityLabel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="/SustainabilityLabel"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/ASustainabilityLabel"/>
+            <NamedIndividual IRI="/BSustainabilityLabel"/>
+            <NamedIndividual IRI="/CSustainabilityLabel"/>
+            <NamedIndividual IRI="/DSustainabilityLabel"/>
+            <NamedIndividual IRI="/ESustainabilityLabel"/>
+            <NamedIndividual IRI="/FSustainabilityLabel"/>
+            <NamedIndividual IRI="/GSustainabilityLabel"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <ClassAssertion>
+        <Class IRI="/SustainabilityLabel"/>
+        <NamedIndividual IRI="/ASustainabilityLabel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SustainabilityLabel"/>
+        <NamedIndividual IRI="/BSustainabilityLabel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SustainabilityLabel"/>
+        <NamedIndividual IRI="/CSustainabilityLabel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SustainabilityLabel"/>
+        <NamedIndividual IRI="/DSustainabilityLabel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SustainabilityLabel"/>
+        <NamedIndividual IRI="/ESustainabilityLabel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SustainabilityLabel"/>
+        <NamedIndividual IRI="/FSustainabilityLabel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SustainabilityLabel"/>
+        <NamedIndividual IRI="/GSustainabilityLabel"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+        <NamedIndividual IRI="/ASustainabilityLabel"/>
+        <NamedIndividual IRI="/BSustainabilityLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+        <NamedIndividual IRI="/BSustainabilityLabel"/>
+        <NamedIndividual IRI="/CSustainabilityLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+        <NamedIndividual IRI="/CSustainabilityLabel"/>
+        <NamedIndividual IRI="/DSustainabilityLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+        <NamedIndividual IRI="/DSustainabilityLabel"/>
+        <NamedIndividual IRI="/ESustainabilityLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+        <NamedIndividual IRI="/ESustainabilityLabel"/>
+        <NamedIndividual IRI="/FSustainabilityLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+        <NamedIndividual IRI="/FSustainabilityLabel"/>
+        <NamedIndividual IRI="/GSustainabilityLabel"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/isLessSustainabilityThan"/>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isLessSustainabilityThan"/>
+        <Class IRI="/SustainabilityLabel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+        <Class IRI="/SustainabilityLabel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isLessSustainabilityThan"/>
+        <Class IRI="/SustainabilityLabel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isMoreSustainabilityThan"/>
+        <Class IRI="/SustainabilityLabel"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
