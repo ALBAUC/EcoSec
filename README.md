@@ -1,2 +1,2 @@
-# EcoSec-Ontology
-An Ontology for the Sustainability of IoT devices and their Security mechanisms
+# EcoSec
+An Ontology and Recommender for the Sustainability of IoT devices and their Security mechanisms
