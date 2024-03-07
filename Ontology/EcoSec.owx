@@ -102,6 +102,9 @@ For security mechanisms, EcoSec assesses key aspects such as adoption, maintenan
         <NamedIndividual IRI="#SHA3SecureHashingIndividual"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SR1-BLEProtocol"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#SRPSignatureIndividual"/>
     </Declaration>
     <Declaration>
@@ -141,31 +144,28 @@ For security mechanisms, EcoSec assesses key aspects such as adoption, maintenan
         <NamedIndividual IRI="/GSustainabilityLabel"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="ontocarmen:SR1-BLEProtocol"/>
+        <NamedIndividual IRI="/SR1-Asset-a"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-Asset-a"/>
+        <NamedIndividual IRI="/SR1-ConfidentialityProperty"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-ConfidentialityProperty"/>
+        <NamedIndividual IRI="/SR1-MicroController"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-MicroController"/>
+        <NamedIndividual IRI="/SR1-RFIDProtocol"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-RFIDProtocol"/>
+        <NamedIndividual IRI="/SR1-SecurityFeature-sf"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityFeature-sf"/>
+        <NamedIndividual IRI="/SR1-SecurityRequirement"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityRequirement"/>
+        <NamedIndividual IRI="/SR1-TemperatureSensor"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-TemperatureSensor"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-WLAN"/>
+        <NamedIndividual IRI="/SR1-WLAN"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
@@ -770,63 +770,63 @@ For security mechanisms, EcoSec assesses key aspects such as adoption, maintenan
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:assetHasDevice"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-Asset-a"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-MicroController"/>
+        <NamedIndividual IRI="/SR1-Asset-a"/>
+        <NamedIndividual IRI="/SR1-MicroController"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:assetHasDevice"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-Asset-a"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-TemperatureSensor"/>
+        <NamedIndividual IRI="/SR1-Asset-a"/>
+        <NamedIndividual IRI="/SR1-TemperatureSensor"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:assetHasInfrastructure"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-Asset-a"/>
-        <NamedIndividual abbreviatedIRI="ontocarmen:SR1-BLEProtocol"/>
+        <NamedIndividual IRI="/SR1-Asset-a"/>
+        <NamedIndividual IRI="#SR1-BLEProtocol"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:assetHasInfrastructure"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-Asset-a"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-RFIDProtocol"/>
+        <NamedIndividual IRI="/SR1-Asset-a"/>
+        <NamedIndividual IRI="/SR1-RFIDProtocol"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:assetHasInfrastructure"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-Asset-a"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-WLAN"/>
+        <NamedIndividual IRI="/SR1-Asset-a"/>
+        <NamedIndividual IRI="/SR1-WLAN"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#securityConstraintHasSustainabilityLabel"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityFeature-sf"/>
+        <NamedIndividual IRI="/SR1-SecurityFeature-sf"/>
         <NamedIndividual IRI="/BSustainabilityLabel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:securityFeatureHasProperty"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityFeature-sf"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-ConfidentialityProperty"/>
+        <NamedIndividual IRI="/SR1-SecurityFeature-sf"/>
+        <NamedIndividual IRI="/SR1-ConfidentialityProperty"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:securityFeatureHasSecurityConstraint"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityFeature-sf"/>
+        <NamedIndividual IRI="/SR1-SecurityFeature-sf"/>
         <NamedIndividual IRI="#CamelliaCipherIndividual"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:securityFeatureHasSecurityConstraint"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityFeature-sf"/>
+        <NamedIndividual IRI="/SR1-SecurityFeature-sf"/>
         <NamedIndividual IRI="#HTTPSChannelIndividual"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:securityFeatureHasSecurityLevel"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityFeature-sf"/>
+        <NamedIndividual IRI="/SR1-SecurityFeature-sf"/>
         <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/HighSecurityLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:securityRequirementHasAsset"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityRequirement"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-Asset-a"/>
+        <NamedIndividual IRI="/SR1-SecurityRequirement"/>
+        <NamedIndividual IRI="/SR1-Asset-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="ontocarmen:securityRequirementHasSecurityFeature"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityRequirement"/>
-        <NamedIndividual IRI="https://gsya.esi.uclm.es/ontocarmen/SR1-SecurityFeature-sf"/>
+        <NamedIndividual IRI="/SR1-SecurityRequirement"/>
+        <NamedIndividual IRI="/SR1-SecurityFeature-sf"/>
     </ObjectPropertyAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="/isLessSustainableThan"/>
